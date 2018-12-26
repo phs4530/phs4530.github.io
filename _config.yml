@@ -1,0 +1,139 @@
+# Site settings
+title: Hyeonsoo Blog 
+SEOTitle: 黄玄?�博�?| Hyeonsoo Blog
+header-img: img/home-bg.jpg
+email: huxpro@gmail.com
+description: "?�于程序与�?计、黑客与?��? | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里??@Hux黄玄 ?�个人博�?��与你一起发?�更大的世界??
+keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄?�博�? Hux Blog, ?��?, 个人网站, 互联�? Web, JavaScript, ?�端, 设�?"
+url: "https://huangxuan.me"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: false
+weibo_username:     Hyeonsoo
+zhihu_username:     Hyeonsoo
+github_username:    Hyeonsoo
+twitter_username:   Hyeonsoo
+#facebook_username:  Hyeonsoo
+#linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+disqus_username: Hyeonsoo
+
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: Hyeonsoo.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "For the next quantum leap<br>离�?世界之前，�??�都??���?
+sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    {
+    #     title: "Su",
+    #     href: "http://su.gallery/"
+    # },{
+        title: "乱序",
+        href: "http://mida.re/"
+    },{
+        title: "?�端外刊评�?",
+        href: "http://qianduan.guru/"
+    },{
+        title: "天镶?�博�?,
+        href: "http://lingyu.wang/"
+    },{
+        title: "Luke ?�自?�地",
+        href: "http://hmqk1995.github.io"
+    },{
+        title: "Ebn's Blog",
+        href: "http://ebnbin.com/"
+    },{
+        title: "SmdCn's Blog",
+        href: "http://blog.smdcn.net"
+    },{
+        title: "David's Game",
+        href: "https://www.ruoyaowu.com/"
+    },{
+        title: "DHong Say",
+        href: "http://dhong.co"
+    },{
+        title: "尹峰以为",
+        href: "http://ingf.github.io/"
+    },{
+        title: "解旻?�博�?,
+        href: "http://xieminis.me/"
+    }
+]
