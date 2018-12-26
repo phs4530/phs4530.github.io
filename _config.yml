@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     phs4530
-zhihu_username:     phs4530
+#weibo_username:     phs4530
+#zhihu_username:     phs4530
 github_username:    phs4530
-twitter_username:   phs4530
-#facebook_username:  huxpro
+#twitter_username:   phs4530
+#facebook_username:  phs4530
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: phs4530
 
 # Netease settings
 netease_comment: false
