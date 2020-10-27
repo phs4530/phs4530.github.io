@@ -1,7 +1,50 @@
+##소개
+ 
+ - 박현수 (Hyeonsoo Park)
+ - Email : phs4530@gmail.com
+ - Github : github.com/phs4530
 
-안녕하세요.<br>
-박현수 입니다.<br>
-SpringCloud 재직중입니다.
+
+
+##경력사항
+
+- DGIST 대구과학경북기술원
+자율주행부서 / Intern
+2016.03 ~ 2016.07
+<br>
+- DGIST 대구과학경북기술원
+자율주행부서 / 파트타임 연구원
+2018.01 ~ 2018.06
+<br>
+- SSAFY 삼성 청년 소프트웨어 아카데미
+Student
+2018.11 ~ 2019.08
+<br>
+- Spring Cloud lnc
+자율주행 AI 플랫폼 개발 / 매니저
+2019.08 ~ 재직중
+
+##프로젝트
+
+####카메라, CAN 모니터링 프로그래밍
+
+_2016.05 ~ 2016.07_
+
+#####개발
+ - 모니터링 프로그래밍 GUI MFC 개발
+    - 4대의 카메라를 멀티스레드를 이용하여 수신
+    - Kvaser CAN driver 이용 Can data 수신
+
+
+####Bixby 캡슐 챌린지 출품 (요리보고)
+_2019.04 ~ 2019.08_
+##### 개발
+ - 요리보고 캡슐 백엔드 개발
+   - MySQL 이용 데이터베이스 설계 및 구현
+   - Spring 이용 rest api 구현.
+   - JSON 을 통한 데이터 전송 구조 설계
+ - __Bixby 챌린지금상 수상__
+ - https://github.com/bixef/bixby
 
 <!--
 ##### Talks
