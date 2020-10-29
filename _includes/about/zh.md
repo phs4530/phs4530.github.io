@@ -2,7 +2,7 @@
  
  - 박현수 (Hyeonsoo Park)
  - Email : phs4530@gmail.com
- - Github : github.com/phs4530
+ - Github : <http://github.com/phs4530>
 
 
 
@@ -30,7 +30,6 @@ Student
 
 _2016.05 ~ 2016.07_
 
-
  - 모니터링 프로그래밍 GUI MFC 개발
     - 4대의 카메라를 멀티스레드를 이용하여 수신
     - Kvaser CAN driver 이용 Can data 수신
@@ -44,7 +43,26 @@ _2019.04 ~ 2019.08_
    - Spring 이용 rest api 구현.
    - JSON 을 통한 데이터 전송 구조 설계
  - __Bixby 챌린지금상 수상__
- - https://github.com/bixef/bixby
+ - Gtihub : <https://github.com/bixef/bixby>
+
+
+#### Apollo 기반 자율주행셔틀 개발
+_2020.02 ~ 진행중_
+
+ - CyberRT 기반 ouster 64ch Driver 개발
+ - 차량제어
+   - CAN interface 매칭
+   - CyberRT 기반 차량제어 Component 개발
+   - Protobuf, Bazel 사용
+
+
+#### 인지센서 퓨전 프레임 제작
+_2020.07 ~ 2020.10_
+
+ - CAN 변환 모듈 개발
+   - data to Kvaser CAN 모듈 개발(ROS, C++ STL)
+   - CAN protocol 정의
+   - DBC 파일 제작
 
 <!--
 ##### Talks
