@@ -64,6 +64,28 @@ _2020.07 ~ 2020.10_
    - CAN protocol 정의
    - DBC 파일 제작
 
+<!-- Technical Experience
+Development
+
+    차량에서의 센서연동 및 차량정보 연동 경험
+        Camera
+        LiDAR (Velodyne, Robosence)
+        Radar (Delphi)
+        CAN
+    다양한 데이터 통신 프로토콜 경험
+        TCP/UDP, HTTP, Kafka, MQTT 등
+    FrameWork 사용경험
+        ROS
+        Apollo
+    Tools
+        Docker / Docker-compose
+        Git
+
+Language
+
+    C / C++ 11
+    Python -->
+
 <!--
 ##### Talks
 
