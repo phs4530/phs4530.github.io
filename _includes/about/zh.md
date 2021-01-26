@@ -51,8 +51,11 @@ _2020.02 ~ 진행중_
 
  - CyberRT 기반 ouster 64ch Driver 개발
  - 차량제어
-   - CAN interface 매칭
-   - CyberRT 기반 차량제어 Component 개발
+   - HMI와 차량간 CAN interface 매칭 가능하도록 브릿지 구현
+   - CyberRT 기반 차량제어 Control Component 개발
+   - Apollo(Throttle, Brake)와 KAMO(Speed, Acceleration)의 종방향 매커니즘 매칭 및 최적화
+   - Docker 내에서 차량 DBC 프로토콜 에 따라 ESD_CAN 사용하여 차량제어 가능하도록 기능 구현
+   - Pure pursuit 기반 경로 추종 알고리즘 적용
    - Protobuf, Bazel 사용
 
 
@@ -61,50 +64,49 @@ _2020.07 ~ 2020.10_
 
  - CAN 변환 모듈 개발
    - data to Kvaser CAN 모듈 개발(ROS, C++ STL)
-   - CAN protocol 정의
-   - DBC 파일 제작
+   - 인지센서 정보 데이터를 C++ BITSET를 이용하여 CAN 64bit로 변환 하도록 구현
+   - 인지센서 정보 CAN protocol 설계 및 정의
+   - Kvaser editor를 통한 DBC 파일 제작
 
-<!-- Technical Experience
+
+#### 특허
+_2020.11.
+
+ - 자율주행 차량의 제어를 위한 캔 프로토콜 매칭 자동화 장치 및 방법
+
+#### Technical Experience
 Development
 
     차량에서의 센서연동 및 차량정보 연동 경험
         Camera
-        LiDAR (Velodyne, Robosence)
+        LiDAR (Velodyne, Ouster)
         Radar (Delphi)
-        CAN
+        CAN (PCAN, CANoe, Kvaser)
     다양한 데이터 통신 프로토콜 경험
-        TCP/UDP, HTTP, Kafka, MQTT 등
+        TCP/UDP, Protobuf, CAN, UART, Bluetooth, RS232 등
     FrameWork 사용경험
         ROS
-        Apollo
+        CyberRT(Apollo)
+    보드 사용 경험
+        AVR, Arduino, Raspberry Pi, Jetson Nano
     Tools
-        Docker / Docker-compose
+        Docker
         Git
+
 
 Language
 
     C / C++ 11
-    Python -->
+    Python 
 
-<!--
-##### Talks
+Awards
 
-- [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux 北京 2017
-- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
-- [Service Worker 101][5] · GDG DevFest 北京 2016
-- [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
-- Progressive Web App 之我见 · GDG IO Redux 北京 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript 模块化七日谈][1] · 2015
+    _2016.09_ 2016 DU Creative Festival 캡스톤디자인 경진대회 장려상
+    _2016.11_ 제 4회 G-Start 대학생 창업경진대회 장려상
+    _2016.10_ DU 청춘 아이디어 경진대회 대상
+    _2016.11_ 창업 모의옥션 경진대회 최우수상
+    _2017.03_ DU Star Venture 창업경진대회 우수상
+    _2017.07_ NEO with DU 2017-1학기 캡스톤 디자인경진대회 창의상
+    _2017.11_ 창원 전국지능로봇경진 대회 장려상(자유종목)
+    _2019.08_ 빅스비 개발 챌린지 금상
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/ -->
