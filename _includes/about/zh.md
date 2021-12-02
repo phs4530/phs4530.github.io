@@ -24,7 +24,7 @@ Student
 자율주행 AI 플랫폼 개발 / 연구원
 2019.08 ~ 2021.04 
 <br>
-- Morai lnc
+- Morai lnc 
 자율주행 Application Research / 원구원
 2021.04 ~
 ## 프로젝트
@@ -82,13 +82,13 @@ _2020.07 ~ 2020.10_
    - ROS, C++ 사용
 
 
-#### Apollo - Morai Sim(Unity) 연동
+#### Apollo 기반 자율주행 구현
 _2021.04 ~ _
 
- - 통신 bridge 설계 및 구현
- - Apollo를 통한 simulator 자율주행 동작 구현
-
- - C#, C++, Unity, Protobuf 사용
+ - MORAI Sim - Apollo 연동
+    - 통신 bridge 설계 및 구현
+    - Apollo 기반 Simulator 자율주행 동작 구현
+    - C#, C++, Unity, Protobuf 사용
  
 ## Technical Experience
 
@@ -106,7 +106,7 @@ _2021.04 ~ _
 - 보드 사용 경험
     - AVR, Arduino, Raspberry Pi, Jetson Nano
 - Tools
-    -Docker
+    - Docker
     - Git
 
 
