@@ -67,7 +67,6 @@ _2020.02 ~ 2021.04_
    - HMI와 자율주행 차량간 CAN interface 매칭 가능하도록 브릿지 구현
    - CyberRT 기반 차량제어 Control Component 개발
    - Docker 내에서 차량 DBC 프로토콜 에 따라 ESD_CAN 사용하여 차량제어 가능하도록 기능 구현
-   - Pure pursuit 기반 경로 추종 알고리즘 구현 중
    - Protobuf, Bazel, CyberRT, C++ 사용
 
 
