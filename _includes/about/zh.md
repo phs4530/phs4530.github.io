@@ -1,6 +1,6 @@
 ## 소개
  
- - 박현수 (Hyeonsoo Park)
+ - 박현수 (Hyeonsu Park)
  - Email : phs4530@gmail.com
  - Github : <http://github.com/phs4530>
 
@@ -21,9 +21,12 @@ Student
 2018.11 ~ 2019.08  
 <br>
 - Spring Cloud lnc  
-자율주행 AI 플랫폼 개발 / 매니저  
-2019.08 ~ 재직중  
-
+자율주행 AI 플랫폼 개발 / 연구원
+2019.08 ~ 2021.04 
+<br>
+- Morai lnc
+자율주행 Application Research / 원구원
+2021.04 ~
 ## 프로젝트
 
 #### 카메라, CAN 모니터링 프로그래밍
@@ -57,7 +60,7 @@ _2019.12 ~ 2020.12_
 
 
 #### Apollo 기반 자율주행셔틀 개발
-_2020.02 ~ 진행중_
+_2020.02 ~ 2021.04_
 
  - CyberRT 기반 ouster 64ch Driver 개발
  - 차량제어
@@ -78,6 +81,15 @@ _2020.07 ~ 2020.10_
    - Kvaser editor를 통한 DBC 파일 제작
    - ROS, C++ 사용
 
+
+#### Apollo - Morai Sim(Unity) 연동
+_2021.04 ~ _
+
+ - 통신 bridge 설계 및 구현
+ - Apollo를 통한 simulator 자율주행 동작 구현
+
+ - C#, C++, Unity, Protobuf 사용
+ 
 ## Technical Experience
 
 #### Development
@@ -92,14 +104,14 @@ _2020.07 ~ 2020.10_
     - ROS
     - CyberRT(Apollo)
 - 보드 사용 경험
-    -     AVR, Arduino, Raspberry Pi, Jetson Nano
+    - AVR, Arduino, Raspberry Pi, Jetson Nano
 - Tools
     -Docker
     - Git
 
 
 #### Language
- - C / C++ 11
+ - C / C# / C++ 11
  - Python 
 
 
