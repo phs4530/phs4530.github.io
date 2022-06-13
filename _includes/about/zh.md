@@ -89,7 +89,7 @@ _2021.04 ~ 2021.12_
     - Apollo 기반 Simulator 자율주행 동작 구현
     - C#, C++, Unity, Protobuf 사용
 
-#### MORAI SIM
+#### CAN interface 연동
 _2022.01 ~ 진행중_
 
  - MORAI SIM - CAN interface 구현
