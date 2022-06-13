@@ -82,12 +82,20 @@ _2020.07 ~ 2020.10_
 
 
 #### Apollo 기반 자율주행 구현
-_2021.04 ~ 재직중_
+_2021.04 ~ 2021.12_
 
- - MORAI Sim - Apollo 연동
+ - MORAI SIM - Apollo 연동
     - 통신 bridge 설계 및 구현
     - Apollo 기반 Simulator 자율주행 동작 구현
     - C#, C++, Unity, Protobuf 사용
+
+#### MORAI SIM
+_2022.01 ~ 진행중_
+
+ - MORAI SIM - CAN interface 구현
+    - Kvaser CAN interface 구성
+    - 사용자가 입력한 CAN DBC(Signal)에 따른 데이터 변환 알고리즘 구현
+    - C#, Unity, Kvaser CAN 사용
  
 ## Technical Experience
 
